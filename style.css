@@ -4,15 +4,9 @@
     padding: 0;
 }
 
-body {
-    height: 100%;
-    width: 100%;
-}
-
 /* header background image and color */
 header {
     height: 22%;
-    width: 100%;
     background-image: url(./img/pattern.png);
     background-repeat: repeat;
     background-color: skyblue;
@@ -23,15 +17,17 @@ header {
     padding-top: 50px;
 }
 
-main {
+main, footer {
     margin: 25px;
 }
 
+/* title size  */
 h1 {
     font-size: 60px;
 
 }
 
+/* author and date */
 #author-date {
     color: grey;
     margin-bottom: 15px;
@@ -41,24 +37,29 @@ h1 {
     color: aqua;
 }
 
+/* photo description */
 #photo-description {
     font: italic;
     font-size: small;
     padding-bottom: 20px;
 }
 
+/* highline */
 .yellow {
     background-color: yellow;
 }
 
+/* list */
 ul {
     padding-bottom: 25px;
     padding-top: 25px;
     margin-left: 16px;
 }
 
+/* table */
 table {
     padding-bottom: 25px;
+    border-spacing: 0px;
 }
 
 thead {
@@ -73,3 +74,39 @@ td {
 .row {
     background-color: aquamarine;
 }
+
+
+/* bottom title */
+h2 {
+    color: grey;
+}
+
+/* footer */
+footer div {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* images */
+#image1 {
+    background-image: url(./img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image2 {
+    background-image: url(./img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* text on images */
+.text-on-image {
+    color: white;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
