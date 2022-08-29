@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header background image and color */
+header {
+    height: 22%;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-color: skyblue;
+}
+
+/* logo position */
+#logo {
+    padding-top: 50px;
+}
+
+main, footer {
+    margin: 25px;
+    width: 1200px;
+    margin: auto;
+}
+
+/* title size  */
+h1 {
+    font-size: 60px;
+
+}
+
+/* author and date */
+#author-date {
+    color: grey;
+    margin-bottom: 15px;
+}
+
+#author {
+    color: aqua;
+}
+
+/* photo description */
+#photo-description {
+    font: italic;
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+/* highline */
+.yellow {
+    background-color: yellow;
+}
+
+/* list */
+ul {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-left: 16px;
+}
+
+/* table */
+table {
+    padding-bottom: 25px;
+    border-spacing: 0px;
+}
+
+thead {
+    background-color: #126AD2;
+    color: white;
+}
+
+td {
+    width: 33.333%;
+}
+
+.row {
+    background-color: aquamarine;
+}
+
+
+/* bottom title */
+h2 {
+    color: grey;
+}
+
+/* footer */
+footer div {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* images */
+#image1 {
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#image2 {
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* text on images */
+.text-on-image {
+    color: white;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
