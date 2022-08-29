@@ -2,11 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-} 
+}
 
 body {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 /* header background image and color */
@@ -16,9 +16,60 @@ header {
     background-image: url(./img/pattern.png);
     background-repeat: repeat;
     background-color: skyblue;
-} 
+}
 
 /* logo position */
 #logo {
     padding-top: 50px;
+}
+
+main {
+    margin: 25px;
+}
+
+h1 {
+    font-size: 60px;
+
+}
+
+#author-date {
+    color: grey;
+    margin-bottom: 15px;
+}
+
+#author {
+    color: aqua;
+}
+
+#photo-description {
+    font: italic;
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+ul {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-left: 16px;
+}
+
+table {
+    padding-bottom: 25px;
+}
+
+thead {
+    background-color: #126AD2;
+    color: white;
+}
+
+td {
+    width: 33.333%;
+}
+
+.row {
+    background-color: aquamarine;
 }
